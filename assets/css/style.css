@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Navigation */
+
+.logokitsune {
+  width: 3.25rem;
+  height: 3.25rem;
+  flex-shrink: 0;
+}
+
+img.textelogokitsune {
+  width: 27.125rem;
+  height: 2.5625rem;
+  flex-shrink: 0;
+  aspect-ratio: 434/41;
+}
+
+div#navbarNav {
+  justify-content: end;
+}
+
+li.nav-item {
+  color: #000;
+  text-align: center;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* feuille de  style titre et sous-titre */
+h1 {
+  color: #df4d9f;
+  text-align: center;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 {
+  color: #607b2a;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main>h2 {
+    margin-bottom: 2rem;
+}
+h3 {
+  color: #607b2a;
+  text-align: center;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h4 {
+  color: #df4d9f;
+  text-align: center;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h5 {
+  color: #607b2a;
+    font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+P {
+  margin: 0;
+}
+
+h5.prixcreations {
+color: #916294;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 16px;  
+margin-bottom: 0px; 
+}
+
+
+
+
+/* hearder */
+
+header {
+  text-align: center; /* pour centrer le text */
+  min-height: 250px;
+  background-image: url("../img/background_accueil.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  color: #fff;
+  padding: 0.5rem;
+  justify-content: center; /* pour centrer horizontalement */
+  align-items: center; /* pour centrer verticalement */
+  padding: 2rem;
+}
+
+/* section intro */
+section.introhistoire {
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #000;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+img.imgamitie {
+  width: 14.9375rem;
+  height: 11.25rem;
+  border-radius: 0.5rem;
+  background: lightgray 0px -49.792px / 100% 176.436% no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.3rem;
+}
+
+.ambiancesecrete {
+  text-align: center;
+  padding: 2rem;
+}
+
+button#commencerlerituel {
+  border-radius: 2rem;
+  background: #df4d9f;
+  width: 28.1875rem;
+  height: 3.5rem;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Main */
+main {
+  background: var(
+    --Linear,
+    linear-gradient(
+      180deg,
+      rgba(243, 249, 226, 0.5) 0%,
+      rgba(243, 234, 237, 0.5) 100%
+    )
+  );
+  height: 50.5rem;
+  flex-shrink: 0;
+  padding: 2rem;
+}
+
+/* card */
+
+.creations-grid {
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+.imageheader {
+    height: 10rem;
+    overflow: hidden;
+}
+.imageheader>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:center;
+}
+
+.textecardcreations {
+    padding: 2rem;
+}
+
+
+/* Media quieres */
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.7rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 0.8rem;
+  }
+
+  img.textelogokitsune {
+    width: 13rem;
+    height: 1.5rem;
+  }
+
+  button#commencerlerituel {
+    width: 14rem;
+    height: 1.75rem;
+    font-size: 0.9rem;
+  }
+}
