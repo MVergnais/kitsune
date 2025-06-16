@@ -195,6 +195,28 @@ main {
 }
 
 
+/* Découvrez la Magie */
+.decouvrezlamagie {
+text-align: center;
+display: flex;
+height: 17rem;
+padding: 0.625rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+border-radius: 0.5rem;
+background: var(--deg, linear-gradient(180deg, rgba(234, 246, 198, 0.45) 0%, #FBE1E1 65.87%));
+background-blend-mode: color;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
 /* Media quieres */
 
 @media screen and (max-width: 600px) {
